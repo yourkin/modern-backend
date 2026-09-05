@@ -48,3 +48,5 @@ The repository contains branches that each represent a distinct approach to the 
 `event-sourcing/rabbitmq-celery-redis` 
 
 This branch implements event-sourcing with the transactional outbox pattern using RabbitMQ, Celery, and Redis. The application architecture leverages RabbitMQ for event publishing, Celery for asynchronous task execution, and Redis for caching, concurrency management, and task queuing. Event sourcing, a design pattern, is employed to capture and persist all changes to the application state as a sequence of immutable events. This approach provides a reliable audit trail of past actions, enabling data consistency, auditing, and the ability to reconstruct application state from historical events. 
+
+<!-- Security scan triggered at 2026-09-05 08:06:10 -->
